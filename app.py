@@ -5,15 +5,6 @@ import altair as alt
 import pandas as pd
 
 
-import sklearn
-import joblib
-import numpy as np
-
-st.write("sklearn version:", sklearn.__version__)
-st.write("joblib version:", joblib.__version__)
-st.write("numpy version:", np.__version__)
-
-
 
 # Load saved model objects
 
@@ -1226,4 +1217,5 @@ if submit_button:
 # with footer_col2:
 #     st.markdown("For screening purposes only • Not a diagnostic tool")
 # with footer_col3:
+
 #     st.markdown("© 2023 CardioHealth Analytics")
